@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    color: #fff;
+    overflow: hidden;
+}
+
+/*====== WIDTH ======*/
+.screenW {
+    width: 100vw;
+}
+.fullW {
+    width: 100%;
+}
+/*====== HEIGHT ======*/
+.screenH {
+    height: 100vh;
+}
+.fullH {
+    height: 100%;
+}
+.height70 {
+    height: 70px;
+}
+/*====== TRANSITIONS ======*/
+.transition1l {
+    transition: opacity 3s ease-in-out;
+}
+.flex1 {
+    flex: 1;
+}
+.flex8 {
+    flex: 8;
+}
+
+.mainContainer {
+  position: relative;
+}
+.menuContainer {
+  position: absolute; right: 40px; top: 40px;
+}
